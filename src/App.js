@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // const [data, setData] = useState({});
+
+  // const url = "https://edamam-recipe-search.p.rapidapi.com/search?q=chicken";
+
+  // const options = {
+  //   method: "GET",
+  //   headers: {
+  //     "X-RapidAPI-Key": "e2afb93ccamsh5700354048e3642p1c5d35jsn65638ba0058d",
+  //     "X-RapidAPI-Host": "edamam-recipe-search.p.rapidapi.com",
+  //   },
+  // };
+
+  return <div className="App"></div>;
 }
 
 export default App;
