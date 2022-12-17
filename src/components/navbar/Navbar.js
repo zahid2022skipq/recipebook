@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaSearch } from "react-icons/fa";
+import logo from "../../Assests/logo.svg";
 const Navbar = () => {
   return (
     <div>
@@ -15,6 +16,24 @@ const Navbar = () => {
             Login
           </button>
         </div>
+      </div>
+      <div className=" flex mt-16 justify-center">
+        <img className="text-center h-28" src={logo} alt="brand logo" />
+      </div>
+
+      <div className="flex justify-center mt-10">
+        <button className="text-center mr-10 text-2xl hover:text-orange-500">
+          Home
+        </button>
+        <button className="text-center mr-10 text-2xl hover:text-orange-500">
+          Popular
+        </button>
+        <button className="text-center mr-10 text-2xl hover:text-orange-500">
+          Curated Collection
+        </button>
+        <button className="text-center mr-10 text-2xl hover:text-orange-500">
+          Healthy
+        </button>
       </div>
     </div>
   );
