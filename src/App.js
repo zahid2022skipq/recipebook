@@ -1,9 +1,7 @@
+import Navbar from "./components/navbar/Navbar";
 import "./App.css";
-
 function App() {
-  // const [data, setData] = useState({});
-
-  // const url = "https://edamam-recipe-search.p.rapidapi.com/search?q=chicken";
+  // const url = "https://edamam-recipe-search.p.rapidapi.com/search?q=breakfast";
 
   // const options = {
   //   method: "GET",
@@ -13,7 +11,16 @@ function App() {
   //   },
   // };
 
-  return <div className="App"></div>;
+  // fetch(url, options)
+  //   .then((res) => res.json())
+  //   .then((json) => console.log(json))
+  //   .catch((error) => console.log(error));
+
+  return (
+    <div className="App">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
