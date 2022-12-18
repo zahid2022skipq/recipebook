@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import "./App.css";
+import CarouselComponent from "./components/Carousel/CarouselComponent";
 function App() {
   // const url = "https://edamam-recipe-search.p.rapidapi.com/search?q=breakfast";
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <CarouselComponent />
     </div>
   );
 }
