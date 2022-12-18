@@ -7,7 +7,7 @@ function App() {
   // const options = {
   //   method: "GET",
   //   headers: {
-  //     "X-RapidAPI-Key": "e2afb93ccamsh5700354048e3642p1c5d35jsn65638ba0058d",
+  //     "X-RapidAPI-Key": "KEY",
   //     "X-RapidAPI-Host": "edamam-recipe-search.p.rapidapi.com",
   //   },
   // };
